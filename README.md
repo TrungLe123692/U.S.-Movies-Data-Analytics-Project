@@ -37,6 +37,8 @@ The dataset was obtained from the **IMDB Movies Dataset**, containing metadata f
 
 ## 3. Analysis List
 
+> ✅ These analyses uncovered key revenue drivers, top-performing production companies, and strong budget–score–gross relationships to guide data-driven forecasting.
+
 - **3.1 Exploratory Data Analysis (EDA)**  
   - Previewed dataset structure and first few rows  
   - Checked column data types and non-null counts  
@@ -60,6 +62,9 @@ The dataset was obtained from the **IMDB Movies Dataset**, containing metadata f
 
 ---
 ## 4. Data Science Techniques 
+
+> ✅ These techniques ensured clean, well-structured data, engineered relevant features, and applied targeted analyses to uncover revenue predictors and top industry performers.
+
 - **Data Cleaning & Preprocessing**  
   - Removed duplicate rows  
   - Dropped rows missing key numeric fields (`gross`, `budget`, `score`)  
@@ -91,6 +96,8 @@ The dataset was obtained from the **IMDB Movies Dataset**, containing metadata f
 ---
 
 ## 5. Python Script with Explanations
+
+> ✅ This Python workflow integrated data cleaning, feature engineering, correlation analysis, visualization, and aggregation to transform raw movie data into actionable insights on revenue drivers and top-performing companies.
 
 - **5.1. Data Loading & Setup**
    - Import libraries for data manipulation and visualization  
