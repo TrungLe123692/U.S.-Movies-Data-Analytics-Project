@@ -9,6 +9,14 @@ To identify the key factors that influence a movie's **financial success** by an
 
 ---
 
+## 📂 Resources
+
+- Python Script: [Movies Analytics Python Script](https://github.com/TrungLe123692/U.S.-Movies-Data-Analytics-Project/blob/main/Python%20Code.py)
+- Movies Dataset: [U.S. Movies Dataset](https://github.com/TrungLe123692/U.S.-Movies-Data-Analytics-Project/blob/main/movies%20dataset.csv)
+- Output: [U.S. Movies Analytics Python Output](https://github.com/TrungLe123692/U.S.-Movies-Data-Analytics-Project/blob/main/Output.pdf)
+  
+---
+
 ## 2. About the Data
 
 The dataset was obtained from the **IMDB Movies Dataset**, containing metadata for over **7,600 movies**. It includes the following key attributes:
@@ -32,6 +40,10 @@ The dataset was obtained from the **IMDB Movies Dataset**, containing metadata f
 | `gross`    | Gross worldwide revenue (float)                       |
 | `company`  | Production/distribution company                       |
 | `runtime`  | Duration in minutes (float)                           |
+
+[Project Stucture](https://github.com/TrungLe123692/U.S.-Movies-Data-Analytics-Project/blob/main/data_structure)
+
+<img width="530" height="815" alt="image" src="https://github.com/user-attachments/assets/bee1330c-a2bb-4adc-baa2-31efdebb9775" />
 
 ---
 
@@ -197,6 +209,16 @@ company_total_gross = df.groupby('company')['gross'].sum().sort_values(ascending
 yearly_company = df.groupby(['released_year', 'company'])['gross'].sum().reset_index()
 top_yearly = yearly_company.sort_values(by='gross', ascending=False)
 ```
+- **5.8. Data Visualizations**
+   - Apply regression modeling techniques
+   - Identify the variables
+  
+<img width="1631" height="786" alt="image" src="https://github.com/user-attachments/assets/b69b6aa7-c955-4251-96af-794e8be14619" />
+
+<img width="1600" height="733" alt="image" src="https://github.com/user-attachments/assets/3fd9aff6-ac1c-4426-8814-07a114df368f" />
+
+
+
 ---
 
 ## 6. 💡 Business Insights
