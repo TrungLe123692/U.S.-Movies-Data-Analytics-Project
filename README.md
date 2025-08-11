@@ -43,8 +43,33 @@ The dataset was obtained from the **IMDB Movies Dataset**, containing metadata f
 
 [Project Stucture](https://github.com/TrungLe123692/U.S.-Movies-Data-Analytics-Project/blob/main/data_structure)
 
-<img width="530" height="815" alt="image" src="https://github.com/user-attachments/assets/bee1330c-a2bb-4adc-baa2-31efdebb9775" />
-
+```
+movie-financial-success-analysis/
+│
+├── data/
+│   └── imdb_movies_dataset.csv
+│
+├── notebooks/
+│   └── Movie_Financial_Success_Analysis.ipynb
+│
+├── scripts/
+│   └── correlation_regression_analysis.py
+│
+├── visuals/
+│   ├── budget_vs_gross_regression.png
+│   ├── score_vs_gross_regression.png
+│   ├── correlation_heatmap_pearson.png
+│   ├── correlation_heatmap_spearman.png
+│   ├── boxplot_gross_outliers.png
+│   └── top_production_companies.png
+│
+├── output/
+│   └── Movie_Financial_Success_Report.pdf
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 ---
 
 ## 3. Analysis List
